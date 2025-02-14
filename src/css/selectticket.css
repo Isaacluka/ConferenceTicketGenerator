@@ -1,0 +1,247 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 700px;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    border: .1rem solid #0E464F;
+    padding: 48px;
+    border-radius: 40px;
+    background: #041E23;
+}
+/* .content, .ticketSelection {
+    border: .1rem solid red;
+} */
+.topText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    width: 608px;
+    height: 48px;
+    border-bottom: .2rem solid #197686 ;
+}
+/* .topText h1,p {
+    padding: 0px;
+} */
+
+hr {
+    border-color: #197686;
+    width: 556px;
+    /* margin-top: 32px;
+    margin-bottom: 32px; */
+}
+.innerCard {
+    border: .1rem solid #0E464F;
+    width: 604px;
+    padding: 24px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background: #08252B;
+    align-items: center;
+}
+.ticketPageinnerCard {
+    width: 604px;
+    height: 849px;
+    background: transparent;
+    border: none;
+    padding: 0%;
+    gap: 32px;
+    
+}
+.ticketPageinnerCard p {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+.eventCard {
+    /* border: .1rem solid #197686; */
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-color: #07373F;
+    backdrop-filter: blur(7px);
+    border-radius: 24px;
+    height: 200px;
+    width: 556px;
+    text-align: center;
+    background: radial-gradient(103.64% 57.39% at 14.02% 32.06%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(10, 12, 17, 0.1);
+    align-self: stretch;
+}
+.road-rage-regular {
+    padding-top: 8px;
+    font-size: 4rem;
+    font-family: "Road Rage", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.ticketsDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.ticketCards{
+    display: flex;
+    border: .1rem solid #0E464F;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border-radius: 16px;
+    background: #052228;
+    gap: 16px;
+
+}
+.ticketCard {
+    border: .1rem solid #197686;
+    width: 162px;
+    height: 110px;
+    padding: 12px;
+    border-radius: 12px;
+}
+.ticketCard:hover{
+    background: #197686;
+}
+.ticketCard h2{
+    padding-bottom: 12px;
+}
+.ttype{
+    font-size: .9rem;
+}
+.inputGroup {
+    /* border: .2rem solid red; */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+input, select {
+    width: 556px;
+    height: 48px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 12px;
+    border: .1rem solid #07373F;
+    background: transparent;
+    color: white;
+    vertical-align: top;
+    text-align: left;
+    padding: 12px;
+    gap: 8px;
+}
+.select-box {
+    position: relative;
+}
+select {
+    appearance: none;
+    outline: none;
+}
+.select-box::after {
+    content: ' ';
+    position: absolute;
+    z-index: 1;
+    width: 8px;
+    height: 8px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    transform: rotate(45deg);
+    right: 12px;
+    top: 50%;
+    margin-top: -8px;
+    pointer-events: none;
+}
+option {
+    color: #07373F;
+}
+select:focus {
+    border-color: #197686;
+}
+input[type=textarea] {
+    height: 127px;
+    vertical-align: top;
+    text-align: left;
+}
+input[type=textarea] ::placeholder {
+    /* vertical-align: top;
+    text-align: left; */
+    align-self: center;
+}
+
+.imageCard {
+    height: 328px;
+    width: 556px;
+    border: .1rem solid #07373F;
+    border-radius: 24px;
+    background: #052228;
+    padding: 24px 24px 48px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.imageAndButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.imageCard.ticketPage {
+    /* border: .1rem solid red; */
+    background: transparent;
+    border: none;
+    width: 604px;
+    height: 664px;
+}
+.darkSquare {
+    width: 506px;
+    height: 200px;
+    background: #02191d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picSquare {
+    width: 240px;
+    height: 240px;
+    background: #0E464F;
+    border-radius: 32px;
+    border: .1rem solid #24A0B5;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+    gap: 16px;
+}
+#file {
+    display: none;
+}
+.buttons {
+    width: 100%;
+    /* border: .2rem solid red; */
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+}
+.button {
+    width:266px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+
+}
+.cancelBtn, .backBtn, .bookTicket{
+    border: .1rem solid #197686;
+}
+.nextBtn, .ticketDwnld {    
+    background-color: #197686;
+    color: white;
+}
+.bookTicket, .ticketDwnld{
+    width: 290px;
+}

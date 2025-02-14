@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    padding: 12px 16px;
+    border: .1rem solid #197686;
+    background-color: rgba(5, 37, 38, .4);
+    gap: 8rem;
+    border-radius: 24px;
+    width: 1200px;
+    height: 76px;
+    margin-top: 24px;
+    /* position: fixed; */
+    /* top: 16px;  */
+    /* right: 50vw; */
+    
+}
+.navbar button {
+    height: 52px;
+    width: 169px;
+    border-radius: 12px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    
+}
+.nav-link{
+    /* border: .1rem solid red; */
+    text-decoration: none !important;
+    color: white;
+    text-decoration-style: none;
+}
+Link {
+    text-decoration: none;
+    color: white;
+}
